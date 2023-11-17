@@ -1,0 +1,10 @@
+After getting the Clone 
+
+First Type in the VS Code termial : npm install --legacy-peer-deps
+Then there will be a lot of error so after that 
+Second Type : npm audit fix --force
+Then : npm install buffer --legacy-peer-deps
+
+after everything is downloaded , the type in terminal
+
+npm run start
