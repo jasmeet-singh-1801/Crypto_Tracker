@@ -23,20 +23,20 @@ const Footer = () => {
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase font-weight-bold">
-              Products {<sub><span style={{color:"Green"}}>( UpComing ) </span></sub>}
+              Creaters {<sub><span style={{color:"Green"}}>( Team ) </span></sub>}
             </h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
             <p>
-              <a href="#!">LogIn</a>
+              <a href="#!">Jasmeet Singh</a>
             </p>
             <p>
-              <a href="#!">Watchlist</a>
+              <a href="#!">Inderjeet Singh</a>
             </p>
             <p>
-              <a href="#!">More Coins</a>
+              <a href="#!">Bhavdeep Singh</a>
             </p>{" "}
             <p>
-              <a href="#!">Help</a>
+              <a href="#!">Arshpreet Singh</a>
             </p>
           </div>
 
@@ -48,7 +48,7 @@ const Footer = () => {
             </p>
             <ButtonMailto
               label={
-                <i class="fa fa-envelope mr-3 pb-3"> Mail Me</i>
+                <i class="fa fa-envelope mr-3 pb-3"> Mail Us</i>
               }
               mailto="mailto:#!"
             />
