@@ -90,7 +90,7 @@ const Footer = () => {
       </div>
 
       <div class="footer-copyright text-center py-3">
-        © 2021 Copyright:
+        © 2023 Copyright:
         <a href="#!"> Crypto Tracker</a>
       </div>
     </footer>
