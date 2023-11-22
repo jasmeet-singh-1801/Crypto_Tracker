@@ -9,8 +9,7 @@ Crypto Tracker is a cryptocurrency price-tracking website built with React. It a
 - [Folder Structure](#folder-structure)
 - [Dependencies](#dependencies)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - Real-time cryptocurrency price tracking.
