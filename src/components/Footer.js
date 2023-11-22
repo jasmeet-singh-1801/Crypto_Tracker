@@ -27,16 +27,16 @@ const Footer = () => {
             </h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
             <p>
-              <a href="#!">Jasmeet Singh</a>
-            </p>
-            <p>
-              <a href="#!">Inderjeet Singh</a>
+              <a href="#!">Arshpreet Singh</a>
             </p>
             <p>
               <a href="#!">Bhavdeep Singh</a>
-            </p>{" "}
+            </p>
             <p>
-              <a href="#!">Arshpreet Singh</a>
+            <a href="#!">Inderjeet Singh</a>
+            </p>
+            <p>
+              <a href="#!">Jasmeet Singh</a>
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
               label={
                 <i class="fa fa-envelope mr-3 pb-3"> Mail Us</i>
               }
-              mailto="mailto:#!"
+              mailto="mailto:jasmeetsingh2872@gmail.com"
             />
 
             <p>
