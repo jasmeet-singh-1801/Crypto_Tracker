@@ -27,16 +27,16 @@ const Footer = () => {
             </h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
             <p>
-              <a href="#!">Arshpreet Singh</a>
+              <a href="https://instagram.com/arshpreet_singh002?igshid=MzMyNGUyNmU2YQ==">Arshpreet Singh</a>
             </p>
             <p>
-              <a href="#!">Bhavdeep Singh</a>
+              <a href="https://instagram.com/bhavdeepsingh38?igshid=MzMyNGUyNmU2YQ==">Bhavdeep Singh</a>
             </p>
             <p>
-            <a href="#!">Inderjeet Singh</a>
+            <a href="https://instagram.com/inderjeetsingh3115?igshid=MzMyNGUyNmU2YQ==">Inderjeet Singh</a>
             </p>
             <p>
-              <a href="#!">Jasmeet Singh</a>
+              <a href="https://instagram.com/jasmeets.22?igshid=MzMyNGUyNmU2YQ==">Jasmeet Singh</a>
             </p>{" "}
             
           </div>
