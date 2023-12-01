@@ -76,12 +76,16 @@ export default function CoinsTable() {
   }, [currency]);
 
   const handleSearch = () => {
+    const searchTermLower = search.toLowerCase();
     return coins.filter(
       (coin) =>
-        coin.name.toLowerCase().includes(search) ||
-        coin.symbol.toLowerCase().includes(search)
+        coin.name.toLowerCase().includes(searchTermLower) ||
+        coin.symbol.toLowerCase().includes(searchTermLower) ||
+        coin.name.includes(search) ||  // Check for uppercase
+        coin.symbol.includes(search)   // Check for uppercase
     );
   };
+  
 
   return (
     <ThemeProvider theme={darkTheme}>
