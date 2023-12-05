@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Pagination from "@material-ui/lab/Pagination";
+import axios from "axios";
+import { CoinList } from "../config/api";
+import { useHistory } from "react-router-dom";
+import { CryptoState } from "../CryptoContext";
 import {
   Container,
   createTheme,
@@ -16,10 +20,7 @@ import {
   Table,
   Paper,
 } from "@material-ui/core";
-import axios from "axios";
-import { CoinList } from "../config/api";
-import { useHistory } from "react-router-dom";
-import { CryptoState } from "../CryptoContext";
+
 
 export function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
